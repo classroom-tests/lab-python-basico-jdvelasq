@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test 01
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_01.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_01.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 02
@@ -28,7 +28,7 @@ jobs:
       with:
         test-name: Test 02
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_02.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_02.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 03
@@ -37,7 +37,7 @@ jobs:
       with:
         test-name: Test 03
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_03.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_03.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 04
@@ -46,7 +46,7 @@ jobs:
       with:
         test-name: Test 04
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_04.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_04.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 05
@@ -55,7 +55,7 @@ jobs:
       with:
         test-name: Test 05
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_05.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_05.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 06
@@ -64,7 +64,7 @@ jobs:
       with:
         test-name: Test 06
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_06.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_06.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 07
@@ -73,7 +73,7 @@ jobs:
       with:
         test-name: Test 07
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_07.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_07.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 08
@@ -82,7 +82,7 @@ jobs:
       with:
         test-name: Test 08
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_08.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_08.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 09
@@ -91,7 +91,7 @@ jobs:
       with:
         test-name: Test 09
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_09.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_09.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 10
@@ -100,7 +100,7 @@ jobs:
       with:
         test-name: Test 10
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_10.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_10.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 11
@@ -109,7 +109,7 @@ jobs:
       with:
         test-name: Test 11
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_11.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_11.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Test 12
@@ -118,7 +118,7 @@ jobs:
       with:
         test-name: Test 12
         setup-command: "./setup.sh"
-        command: pytest tests\test_pregunta_12.py --maxfail=1 --disable-warnings -q
+        command: pytest tests/test_pregunta_12.py --maxfail=1 --disable-warnings -q
         timeout: 10
         max-score: 1
     - name: Autograding Reporter
